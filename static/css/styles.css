@@ -796,3 +796,16 @@ footer.entry-meta .meta-in {
     max-width: 1080px;
   }
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  margin: 0 100px; /* Adjust this value to control the space between images */
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%); /* Adjust the percentage to control the intensity of the grey filter */
+  opacity: 50%;
+}
