@@ -374,6 +374,19 @@ img {
   vertical-align: middle;
   margin: 0 0 25px 0;
 }
+/* Section - Previous Employers' Logo */
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  margin: 0 100px; /* Adjust this value to control the space between images */
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%); /* Adjust the percentage to control the intensity of the grey filter */
+  opacity: 50%;
+}
 /* Section - Recent works */
 .thumbnails {
   padding: 0;
@@ -797,15 +810,3 @@ footer.entry-meta .meta-in {
   }
 }
 
-.image-container {
-  display: flex;
-  justify-content: center;
-}
-
-.image-container img {
-  margin: 0 100px; /* Adjust this value to control the space between images */
-  max-width: 100%;
-  height: auto;
-  filter: grayscale(100%); /* Adjust the percentage to control the intensity of the grey filter */
-  opacity: 50%;
-}
